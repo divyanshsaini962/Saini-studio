@@ -37,7 +37,7 @@ const Header = () => {
     },
     {
         title:"About Us",
-        link:"/about-us",
+        link:"/about",
     },
     {
         title:"Contact",
@@ -47,7 +47,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className='w-full h-20 bg-white border-b-[1px] border-b-gray-400  justify-between fixed'>
+      <nav className='w-full h-20 bg-white border-b-[1px] border-b-gray-400  justify-between sticky'>
         <div className='h-full max-w-screen-xl md:mx-auto flex items-center justify-between '>
              <div className='flex w-1/2 mx-4 '>
                   <Link href={'/'}>
