@@ -47,7 +47,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className='w-full h-20 bg-white border-b-[1px] border-b-gray-400 sticky justify-between'>
+      <nav className='w-full h-20 bg-white border-b-[1px] border-b-gray-400  justify-between fixed'>
         <div className='h-full max-w-screen-xl md:mx-auto flex items-center justify-between '>
              <div className='flex w-1/2 mx-4 '>
                   <Link href={'/'}>
