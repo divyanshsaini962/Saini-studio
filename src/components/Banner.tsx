@@ -1,30 +1,46 @@
-import React from 'react'
-import Image from 'next/image'
-import BannerImg from '@/src/asset/digital-marketing-banner.png'
+import React from 'react';
+import Image from 'next/image';
+import HeroImg from '@/src/asset/Hero.png';
+import { IoLogoInstagram } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
 
 const Banner = () => {
   return (
     <>
-      <section className="text-gray-600 body-font">
-  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">We Grow You Revenue
-        <br className="hidden lg:inline-block"/>With Results-driven SEO.
-      </h1>
-      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div className="flex justify-center">
-        <button className="inline-flex text-white bg-primeColor border-0 py-2 px-6
-          focus:outline-none hover:bg-purple-600 rounded text-lg"><a href="/contact"> Contact Us</a> </button>
-        <button className="ml-4 inline-flex text-gray-700 hover:text-white bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-primeColor rounded text-lg">About Us</button>
-      </div>
-    </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <Image className="object-cover object-center rounded" width={350} height={350} alt="hero" src={BannerImg}/>
-    </div>
-  </div>
-</section>
-    </>
-  )
-}
+      <div className="relative h-screen">
+        <Image 
+          src={HeroImg} 
+          alt="Hero Image" 
+          layout="fill" 
+          objectFit="cover" 
+          quality={100} 
+        />
+        <div className="absolute inset-0  bg-opacity-75"></div>
+        <div className="absolute inset-0 flex justify-center items-center">
+          <div className="container mx-auto text-center">
+            <h1 className="md:text-6xl text-2xl text-center font-bold text-white mb-4">Uplifting your digital presence<br />through creative solutions</h1>
+            <div className='flex items-center justify-center p-5'>
+            <button 
+             className='w-10 h-10 bg-gray-500 items-center justify-center flex mx-1 rounded hover:bg-pink-300'>
+              <a href="https://www.instagram.com/saini.std/" target='_blank'>
+              <IoLogoInstagram className=' h-7 w-7 text-white' />
+              </a>
+            </button>
+                            {/* email icon */}
+            <button 
+             className='w-10 h-10 bg-gray-500 items-center justify-center mx-1 flex rounded hover:bg-pink-300'>
+              <a href="hi@saini.studio" target='_blank'>
+              <MdEmail className=' h-7 w-7 text-white' />
+              </a>
+            </button>
+            </div>
 
-export default Banner
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Banner;
+
