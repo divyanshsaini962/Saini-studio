@@ -1,7 +1,6 @@
 'use client';
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import Logo from '../asset/Logo-04.png'
 
 
@@ -9,8 +8,6 @@ import Logo from '../asset/Logo-04.png'
 
 
 const Header = () => {
-
-
   return (
     <>
       <header className="text-gray-600 body-font">
@@ -32,7 +29,9 @@ const Header = () => {
     <button className="inline-flex items-center
      bg-primeColor border-1  py-1 px-3 focus:outline-none hover:bg-gray-300
       text-white rounded hover:text-primeColor text-base mt-4 md:mt-0 font-semibold">
+      <a href="/contact">
       Let's talk
+      </a>
     </button>
   </div>
 </header>

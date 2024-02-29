@@ -13,7 +13,7 @@ export default function Footer() {
         <h1 className='my-2'>+91 79857 84998</h1>
         <hr className=' h-1 bg-primeColor my-2' />
         <p className="mb-4">End Of, Majdoor Wali Gali, BadaBazar, PuranaSahar, Jhansi, UttarPradesh 284002</p>
-        <h2 className="text-2xl font-semibold">Branding | Webdesign | Digital marketing</h2>
+        <h2 className="text-2xl font-semibold">Branding | Web design | Digital marketing</h2>
       </div>
       <div className='mt-2'>
         <a href="#" className='pt-8'>
