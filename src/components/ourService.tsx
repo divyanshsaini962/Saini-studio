@@ -27,7 +27,7 @@ const ourService = () => {
           <button className='w-36 h-8 rounded border-2 hover:text-black hover:bg-white'>
             <a href="">I WANT IT</a>
           </button>
-          <hr className='lg:w-28  mt-8' />
+          <hr className='lg:w-28 mt-8' />
         </div>
       </div>
                            {/* 2nd container */}
