@@ -12,8 +12,8 @@ const BrandList = () => {
             alt='Banner saini'
            />
         </div>
-        <div className='w-full pl-12 md:pl-44'>
-          <div className='w-96'>
+        <div className='w-full pl-0 md:pl-44'>
+          <div className='w-96 p-5 md:p-0'>
           <p className='font-semibold'>
             Saini Studio is a Jhansi, Uttar Pradesh-based
             creative agency dedicated to improving digital
