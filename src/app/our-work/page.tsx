@@ -1,6 +1,10 @@
 import React from 'react'
+import type { Metadata } from "next";
 
-const Service = () => {
+export const metadata: Metadata = {
+  title:"Our Work"
+}
+const OurWork = () => {
   return (
     <div className='w-full bg-primeColor'>
         <h1 className='text-5xl text-white'>
@@ -10,4 +14,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default OurWork

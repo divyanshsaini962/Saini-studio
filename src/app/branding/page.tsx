@@ -1,5 +1,9 @@
 import React from 'react'
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title:"Branding"
+}
 const Branding = () => {
   return (
     <div className='w-full bg-primeColor'>

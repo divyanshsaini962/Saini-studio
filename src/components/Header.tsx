@@ -20,11 +20,12 @@ const Header = () => {
       />
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a href='/' className="mr-5 hover:text-primeColor font-semibold">Branding</a>
-      <a href='/' className="mr-5 hover:text-primeColor font-semibold">Web Design</a>
-      <a href='/' className="mr-5 hover:text-primeColor font-semibold">Digital Marketing</a>
-      <a href='/' className="mr-5 hover:text-primeColor font-semibold">Our Work</a>
-      <a href='/' className="mr-5 hover:text-primeColor font-semibold">About Us</a>
+      <a href='/' className="mr-5 hover:text-primeColor font-semibold">Home</a>
+      <a href='/branding' className="mr-5 hover:text-primeColor font-semibold">Branding</a>
+      <a href='/web-design' className="mr-5 hover:text-primeColor font-semibold">Web Design</a>
+      <a href='/digital-marketing' className="mr-5 hover:text-primeColor font-semibold">Digital Marketing</a>
+      <a href='/our-work' className="mr-5 hover:text-primeColor font-semibold">Our Work</a>
+      <a href='/about' className="mr-5 hover:text-primeColor font-semibold">About Us</a>
     </nav>
     <button className="inline-flex items-center
      bg-primeColor border-1  py-1 px-3 focus:outline-none hover:bg-gray-300

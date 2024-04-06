@@ -1,5 +1,9 @@
 import React from 'react'
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title:"Contact"
+}
 const Contact = () => {
     const iframeStyle: React.CSSProperties = {
         filter: 'grayscale(1) contrast(1.2) opacity(0.4)'

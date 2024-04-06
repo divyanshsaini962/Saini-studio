@@ -1,25 +1,28 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
-const config = {
+const config: Config = {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
     extend: {
+      fontFamily: {
+        custom: ["Sainifont", "sans"], // Replace 'YourFontName' with the font-family name you imported
+      },
+      container: {
+        center: true,
+        padding: "2rem",
+        screens: {
+          "2xl": "1400px",
+        },
+      },
       colors: {
-        primeColor:"#6300F9",
+        primeColor: "#6300F9",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -41,8 +44,17 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    // Here you can add the font-face definition if needed
+    fontFace: {
+      'Sainifont': {
+        'fontFamily': 'Sainifonts', // Font family name
+        'fontStyle': 'normal',
+        'fontWeight': 'normal',
+        'src': 'url("/fonts/coolvetica_compressed_hv.otf") format("opentype")', // Font file path
+      },
+    },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+};
 
-export default config
+export default config;

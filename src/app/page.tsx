@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import Banner from "../components/Banner"
 import OurService from '../components/ourService'
 import BrandList from '../components/BrandList'

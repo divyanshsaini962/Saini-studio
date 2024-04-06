@@ -7,8 +7,11 @@ import Footer from "../components/Footer"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saini studio",
-  description: "lets grow a business",
+  title: {
+    default:"Saini Studio Creative Agency",
+    template:"%s - Saini Studio"
+  },
+  description: "Saini Studio: A creative agency dedicated to enhancing your digital presence through innovative thinking and strategic solutions. Elevate your brand with our bespoke design, development, and marketing services. Let's collaborate to bring your vision to life. Contact us today!",
   
 };
 
