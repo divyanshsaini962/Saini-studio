@@ -22,8 +22,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: '../asset/Og-logo.png',
-        width: 800,
-        height: 600,
         alt: 'Saini Studio Image',
       },
     ],
