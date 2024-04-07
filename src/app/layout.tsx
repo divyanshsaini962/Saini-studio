@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import { GoogleTagManager } from '@next/third-parties/google'
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     description: 'Elevate your brand with Saini Studio, a leading creative agency based in Jhansi, Uttar Pradesh. We specialize in innovative digital solutions that captivate audiences and drive engagement. Let us help you reach your full potential and stand out in your industry with our commitment to excellence and boundary-pushing creativity. Together, well elevate the world around us.',
     images: [
       {
-        url: './ongraph-image.png',
+        url: '../asset/Og-logo.png',
         width: 800,
         height: 600,
         alt: 'Saini Studio Image',
