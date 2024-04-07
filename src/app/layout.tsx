@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer"
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Elevate your brand with Saini Studio, a leading creative agency based in Jhansi, Uttar Pradesh. We specialize in innovative digital solutions that captivate audiences and drive engagement. Let us help you reach your full potential and stand out in your industry with our commitment to excellence and boundary-pushing creativity. Together, well elevate the world around us.',
     images: [
       {
-        url: 'https://www.sainistudio.com/',
+        url: './ongraph-image.png',
         width: 800,
         height: 600,
         alt: 'Saini Studio Image',
