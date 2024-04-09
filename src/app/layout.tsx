@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer"
 import { GoogleTagManager } from '@next/third-parties/google'
+import Navbar from '../components/Navbar'
 
 
 
@@ -37,7 +38,8 @@ export default function RootLayout({
     <html lang="en">
        <GoogleTagManager gtmId="GTM-KBZSS4V8" />
       <body className={inter.className}>
-        <Header/>
+        <Navbar/>
+        {/* <Header/> */}
         {children}
         <Footer/>
       </body>
